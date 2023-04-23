@@ -7,6 +7,8 @@ from selenium.webdriver.common.by import By
                              "samsung",
                              "apple watch"
                          ])
+
+
 @pytest.mark.smoketest
 def test_amazon_search(browser_firefox, item):
     browser_firefox.get("https://www.amazon.com/")
